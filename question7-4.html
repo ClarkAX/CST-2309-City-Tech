@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<style type="text/css">
+
+			p{
+
+				color:red;
+				font-style:italic;
+				font-size:12px;
+			}
+
+		</style>
+		<!--Used an embedded style tag to change how the paragraph tag appears.-->
+
+	</head>
+	
+	<body>
+
+		<!-- Sample Text used to check if the style attributes woked. -->
+		<p>
+			This is paragraph one. 
+			<br/>
+			1
+			<br/>
+			2
+			<br/>
+		</p>
+
+		<p>
+			This is paragraph two.
+			<br/>
+			1
+			<br/>
+			2
+			<br/>
+		</p>
+		
+		<p style="font-size:14px;color:blue">
+			<!--In line styling will override any changes created by embedded styling (i.e. the <style> tag.) The italics style attribute from the embedded tag will still work on this paragraph because it was not overwritten.-->
+			This is paragraph three.
+			<br/>
+			1
+			<br/>
+			2
+			<br/>
+		</p>			
+
+	</body>	
+
+</html>
